@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8"><title>Quiz Show</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<link rel='stylesheet' 
+		type='text/css'
+		media= "only screen and (min-width: 530px) and (min-device-width: 481px)"
+		href='/stylesheets/wide.css' />
+	<link rel='stylesheet' 
+		type='text/css'
+		media= "only screen and (min-width: 480px)"
+		href='/stylesheets/smartphone.css' />
+  </head>
+<body>
+<div id="page-wrap">
+	<header>
+		<h2>Quiz Show: el juego de las preguntas</h2>
+	</header>
+	
+	<nav class="main" id="n1" role="navigation">
+		<spam><a href="/">Inicio</a></spam>
+		<spam><a href="/quizes/question">Preguntas</a></spam>
+		<spam><a href="/author">Creditos</a></spam>
+	</nav>
+
+	<section class="main" id="s1">
+		<%- body %>
+	</section>
+
+	<footer class="main" id="f1">
+		<a href="http://es.wikipedia.org/wiki/Quiz">Qué es un quiz?</a>
+		<p><a href="https://github.com/mmoontoro/quizshow-2015">Proyecto en GitHub</a></p>
+	</footer>
+</div>
+</body>
+</html>
